@@ -1,0 +1,86 @@
+.div-content-left {
+    text-align: center;
+    width: 100%;
+    height: 150px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.div-content {
+    margin-top: 10px;
+    width: 80%;
+    height: 100%;
+    border: 1px solid rgba(26, 53, 71, .1);
+}
+
+.status_list_item {
+    position: relative;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(249, 249, 249, 0.08), 0 0 0 1px rgba(26, 53, 71, .04), 0 1px 1px rgba(26, 53, 71, .06);
+    background-image: url("../../../statics/images/avatar.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right center;
+    text-align: left;
+}
+
+.status-title {
+    padding: 5px;
+    width: auto;
+    font-size: 20px;
+    font-weight: 700;
+    display: block;
+    position: relative;
+    color: inherit;
+    text-indent: 2em;
+}
+
+.title-post {
+    cursor: pointer;
+}
+
+.status-content {
+    margin-top: 5px;
+    text-indent: 2em;
+    width: 80%;
+    margin-left: 5px;
+}
+
+.post-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.btn-primry {
+    background: #bebbaa;
+    text-decoration: none;
+    font-size: .8em;
+    font-weight: 700;
+    padding: 12px 25px;
+    text-transform: uppercase;
+    color: white !important;
+    border-radius: 30px;
+    border: none;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    display: inline-block;
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+
+.title-time {
+    font-size: 0.8em;
+    color: #bebbaa;
+}
+
+.post-more {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-more {
+    outline: none;
+    cursor: pointer;
+}
